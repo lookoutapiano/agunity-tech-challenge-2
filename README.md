@@ -1,4 +1,4 @@
-# AgUnity Tech Challenge 1
+# AgUnity Tech Challenge 2
 
 Code a json file with the data required for the screen design below.
 Create an interface in pure HTML & CSS that uses the file to render the screen
