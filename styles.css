@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.population {
+    display: flex;
+    flex-direction: row;
+}
+
+.population-category {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: auto;
+}
+
+.total-header {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.population-category h3 {
+    margin-top: 0;
+}
+
+.country-population {
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.country-population div {
+    border-radius: 4px;
+}
+
+.country-population p {
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+.text-lg {
+    font-size: 22px;
+}
+
+.text-sm {
+    font-size: 14px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: gray;
+}
+
+.text-men {
+    color: rgba(56, 178, 172);
+}
+
+.text-women {
+    color: rgba(85, 60, 164);
+}
+
+.text-youth {
+    color: rgba(49, 130, 206);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.col-gap-8 {
+    column-gap: 8px;
+}
+.row-gap-4 {
+    row-gap: 4px;
+}
+
+.px-4 {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.px-8 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.py-4 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.bg-men-light {
+    background-color: rgba(56, 178, 172, 0.2);
+}
+.bg-men {
+    background-color: rgba(56, 178, 172);
+}
+
+.bg-women-light {
+    background-color: rgba(85, 60, 164, 0.2);
+}
+.bg-women {
+    background-color: rgba(85, 60, 164);
+}
+
+.bg-youth-light {
+    background-color: rgba(49, 130, 206, 0.2);
+}
+.bg-youth {
+    background-color: rgba(49, 130, 206);
+}

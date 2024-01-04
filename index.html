@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Population</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="population">
+            <div class="population-category">
+                <div class="total-header">
+                    <span id="totalMen" class="text-bold text-lg"></span> <span class="text-sm text-bold text-grey">Men</span>
+                </div>
+                <div class="country-population">
+                    <span class="text-sm text-bold">By country</span>
+                    <div class="flex-row flex-wrap col-gap-8 row-gap-4" id="menByCountry"></div>
+                </div>
+            </div>
+            <div class="population-category">
+                <div class="total-header">
+                    <span id="totalWomen" class="text-bold text-lg"></span> <span class="text-sm text-bold text-grey">Women</span>
+                </div>
+                <div class="country-population">
+                    <span class="text-sm text-bold">By country</span>
+                    <div class="flex-row flex-wrap col-gap-8 row-gap-4" id="womenByCountry"></div>
+                </div>
+            </div>
+            <div class="population-category">
+                <div class="total-header">
+                    <span id="totalYouth" class="text-bold text-lg"></span> <span class="text-sm text-bold text-grey">Youth</span>
+                </div>
+                <div class="country-population">
+                    <span class="text-sm text-bold">By country</span>
+                    <div class="flex-row flex-wrap col-gap-8 row-gap-4" id="youthByCountry"></div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js" defer></script>
+    </body>
+</html>
